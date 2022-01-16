@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Game</title>
+	<link rel="stylesheet" type="text/css" href="css.css">
+	<script type="text/javascript" defer src="script.js"></script>
+</head>
+<body>
+<div class="board cross" id="board">
+	<div class="cell" data-cell></div>
+	<div class="cell" data-cell></div>
+	<div class="cell" data-cell></div>
+	<div class="cell" data-cell></div>
+	<div class="cell" data-cell></div>
+	<div class="cell" data-cell></div>
+	<div class="cell" data-cell></div>
+	<div class="cell" data-cell></div>
+	<div class="cell" data-cell></div>
+</div>
+<div class="winnerDisplay no" id="winnerDisplay">
+	<div class="label" id="winner">X Wins!</div>
+	<button onclick="reloadPage()">Restart</button>
+</div>
+</body>
+</html>
